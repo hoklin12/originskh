@@ -16,6 +16,7 @@ const nextConfig = {
         hostname: '**', // Allows all domains (be cautious with this in production)
         port: '',
         pathname: '/**',
+        domain: [],
       },
     ],
     unoptimized: true,
