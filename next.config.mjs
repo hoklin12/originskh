@@ -16,7 +16,7 @@ const nextConfig = {
         hostname: '**', // Allows all domains (be cautious with this in production)
         port: '',
         pathname: '/**',
-        domain: [],
+        domains: ["originskh-hoklin12s-projects.vercel.app"],
       },
     ],
     unoptimized: true,
