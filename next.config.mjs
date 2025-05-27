@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '', // Ensure this is empty unless intended
-  assetPrefix: '', // Ensure this is empty unless using a CDN
+  basePath: '',
+  assetPrefix: '',
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
@@ -13,14 +13,13 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**',
+        hostname: '**', // Allows all domains (be cautious with this in production)
         port: '',
         pathname: '/**',
-        domains: [], // Add external domains here if using external images
       },
     ],
     unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;

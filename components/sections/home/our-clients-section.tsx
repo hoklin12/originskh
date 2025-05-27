@@ -10,8 +10,8 @@ export default function OurClientsSection() {
     { name: 'CPS', src: '/cps.png' },
     { name: 'GRAV', src: '/grav.png' },
     { name: 'GROOD', src: '/grood.png' },
-    { name: 'Asset 1@hyu2', src: '/Asset1@hyu2.png' },
-    { name: 'Asset 1@muc', src: '/Asset1@muc.png' },
+    { name: 'Asset1@hyu2', src: '/Asset1@hyu2.png' },
+    { name: 'Asset1@muc', src: '/Asset1@muc.png' },
     { name: 'klat', src: '/klat.png' },
     { name: 'Tuns', src: '/tuns.png' },
   ];
