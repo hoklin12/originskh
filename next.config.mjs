@@ -16,6 +16,7 @@ const nextConfig = {
         hostname: '**',
         port: '',
         pathname: '/**',
+        domains: [], // Add external domains here if using external images
       },
     ],
     unoptimized: true,
