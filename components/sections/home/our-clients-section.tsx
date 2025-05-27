@@ -7,7 +7,7 @@ export default function OurClientsSection() {
     { name: 'Tree', src: '/tree.png' },
     { name: 'Ide', src: '/ide.png' },
     { name: 'Ns', src: '/Assets/ns.png' },
-    { name: 'CPS', src: '/cps.png' },
+    { name: 'CPS', src: '/origins_website/public/Assets/cps.png' },
     { name: 'GRAV', src: '/grav.png' },
     { name: 'GROOD', src: '/grood.png' },
     { name: 'Asset1@hyu2', src: '/Asset1@hyu2.png' },
