@@ -10,15 +10,16 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**', // Allows all domains (be cautious with this in production)
-        port: '',
-        pathname: '/**',
-        domains: ["originskh-hoklin12s-projects.vercel.app"],
-      },
-    ],
+    // remotePatterns: [
+    //   {
+    //     protocol: 'https',
+    //     hostname: '**', // Allows all domains (be cautious with this in production)
+    //     port: '',
+    //     pathname: '/**',
+    //   },
+    // ],
+    loader: 'default',
+    path: "/",
     unoptimized: true,
   },
 };
