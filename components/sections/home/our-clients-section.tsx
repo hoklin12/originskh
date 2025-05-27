@@ -6,8 +6,8 @@ export default function OurClientsSection() {
   const clients = [
     { name: 'Tree', src: '/tree.png' },
     { name: 'Ide', src: '/ide.png' },
-    { name: 'Ns', src: '/Assets/ns.png' },
-    { name: 'CPS', src: '/public/Assets/cps.png' },
+    { name: 'Ns', src: '/ns.png' },
+    { name: 'CPS', src: '/cps.png' },
     { name: 'GRAV', src: '/grav.png' },
     { name: 'GROOD', src: '/grood.png' },
     { name: 'Asset1@hyu2', src: '/Asset1@hyu2.png' },
