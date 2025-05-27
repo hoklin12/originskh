@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import VideoSection from '@/components/video-section';
+import myImage from '/public/Assets/originslogo.png';
+
 
 export default function IntroHomeSection() {
   return (
@@ -10,7 +12,8 @@ export default function IntroHomeSection() {
       <div className="w-full flex justify-center items-center ">
     <Link href="/" className="block">
       <Image
-        src="/Assets/originslogo.png"
+        // src="/Assets/originslogo.png"
+        src={myImage}
         alt="Origins Logo"
         width={1350}
         height={1350}
