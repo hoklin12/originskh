@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '', // Ensure this is empty unless intended
+  assetPrefix: '', // Ensure this is empty unless using a CDN
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
