@@ -10,7 +10,7 @@ export default function IntroHomeSection() {
       <div className="w-full flex justify-center items-center ">
     <Link href="/" className="block">
       <Image
-        src="/public/origins-logo.png"
+        src="/origins-logo.png"
         alt="Origins Logo"
         width={1350}
         height={1350}
